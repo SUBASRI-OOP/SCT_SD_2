@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1f2b6c, #5f4b8b);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffcc00;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffcc00;
+  color: #1e1e2f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
